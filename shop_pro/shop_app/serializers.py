@@ -21,20 +21,19 @@ class loginserializer(serializers.Serializer):
 
     
 class ShopSerializer(serializers.ModelSerializer):
-    user = serializers.SlugRelatedField(
-        queryset=User.objects.all(),
-        slug_field='username',
-        many=True  # Set many to True for ManyToManyField
-    )
+    user = serializers.SlugRelatedField(queryset=User.objects.all(), slug_field='username', many=True)
 
     class Meta:
         model = Shop
-        fields = ['id', 'user', 'shop_name', 'address', 'contact_no', 'email']
+        fields = ['id','shop_name', 'address', 'contact_no', 'email', 'user']
 
-    def to_representation(self, instance):
-        representation = super().to_representation(instance)
-        representation['user'] = instance.user.values_list('username', flat=True)
-        return representation
+    def create(self, validated_data):
+        user_data = validated_data.pop('user', [])
+        shop_instance = Shop.objects.create(**validated_data)
+        for username in user_data:
+            user_instance = User.objects.get(username=username)
+            shop_instance.user.add(user_instance)
+        return shop_instance
 
     
 

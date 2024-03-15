@@ -27,6 +27,7 @@ class Product(models.Model):
     selling_price=models.DecimalField(max_digits=10,decimal_places=2,null=True,blank=True)
     stock = models.ForeignKey(Stock, on_delete=models.CASCADE)
     stock_quantity = models.IntegerField(null=True,blank=True)
+    product_link=models.CharField(null=True,blank=True,max_length=600)
 
     def __str__(self):
         return self.product_name

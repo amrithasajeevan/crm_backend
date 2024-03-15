@@ -75,10 +75,13 @@ class ShopListCreateAPIView(APIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
 class ShopDetailAPIView(APIView):
     def get_object(self, pk):
-        return get_object_or_404(Shop, pk=pk)
+        try:
+            return Shop.objects.get(pk=pk)
+        except Shop.DoesNotExist:
+            raise Http404
 
     def get(self, request, pk):
         shop = self.get_object(pk)
@@ -97,6 +100,7 @@ class ShopDetailAPIView(APIView):
         shop = self.get_object(pk)
         shop.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+    
 
 class ProductAddView(APIView):
     permission_classes = [IsAuthenticated]

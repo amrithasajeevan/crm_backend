@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'shop_pro.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "Project_crm",
-        "USER": "postgres",
-        "PASSWORD": "admin",
+        "NAME": "crmdb",
+        "USER": "crm",
+        "PASSWORD": "crmadmin@123",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
