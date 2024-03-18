@@ -21,21 +21,24 @@ class loginserializer(serializers.Serializer):
 
     
 class ShopSerializer(serializers.ModelSerializer):
-    user = serializers.SlugRelatedField(queryset=User.objects.all(), slug_field='username', many=True)
+    user = serializers.SlugRelatedField(slug_field='username', queryset=User.objects.all(), many=True)
 
     class Meta:
         model = Shop
-        fields = ['id','shop_name', 'address', 'contact_no', 'email', 'user']
+        fields = ['id', 'user', 'shop_name', 'address', 'contact_no', 'email']
 
     def create(self, validated_data):
-        user_data = validated_data.pop('user', [])
-        shop_instance = Shop.objects.create(**validated_data)
-        for username in user_data:
-            user_instance = User.objects.get(username=username)
-            shop_instance.user.add(user_instance)
-        return shop_instance
-
+        users_data = validated_data.pop('user')
+        shop = Shop.objects.create(**validated_data)
+        for username in users_data:
+            user = User.objects.get(username=username)
+            shop.user.add(user)
+        return shop
     
+    def to_representation(self, instance):
+        representation = super().to_representation(instance)
+        representation['user'] = instance.user.first().username  # Get the first user's username
+        return representation
 
 class StockSerializer(serializers.ModelSerializer):
     class Meta:
@@ -44,15 +47,15 @@ class StockSerializer(serializers.ModelSerializer):
 
 
 class ProductSerializer(serializers.ModelSerializer):
-    shop_name = serializers.CharField(source='shop.shop_name')
+    shop_name = serializers.CharField(source='shop.shop_name', read_only=True)
 
     class Meta:
         model = Product
-        fields = ['id','shop_name','pro_company','product_name', 'description', 'price', 'selling_price','stock_quantity']
+        fields = ['id','shop_name','image','pro_company','product_name', 'description', 'price', 'selling_price','stock_quantity']
 
     def get_stock_quantity(self, obj):
         # Retrieve stock quantity for the product
-        return obj.stock.quantity if obj.stock else None
+        return obj.stock_quantity if obj.stock else None
 
 
 class EmployeeSerializer(serializers.ModelSerializer):
