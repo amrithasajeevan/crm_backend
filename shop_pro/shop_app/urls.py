@@ -16,6 +16,6 @@ path('employees/<int:pk>/', EmployeeAddView.as_view(), name='employee_detail'),
 path('stocks/', StockListCreateAPIView.as_view(), name='stock-list-create'),
 path('stocks/<int:pk>/', StockDetailAPIView.as_view(), name='stock-detail'),
 path('billing-details/', BillingDetailsView.as_view(), name='billing-details'),
-path('billings/<int:pk>/', BillingDetailsView.as_view(), name='billing_details_detail'),  # Detail view with pk
+path('billing-details/<str:invoice_number>/', BillingDeleteView.as_view(), name='billing-details'),  # Detail view with pk
 
 ]

@@ -463,3 +463,66 @@ class BillingDetailsView(APIView):
 
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+
+class BillingDeleteView(APIView):
+   
+    permission_classes = [IsAuthenticated, IsShopOwner]
+    authentication_classes = [TokenAuthentication]
+
+    def get(self, request, *args, **kwargs):
+        try:
+            # Extract billing data identifier from URL parameter (e.g., invoice_number)
+            invoice_number = self.kwargs.get('invoice_number')
+
+            # Find billing data based on the invoice number
+            billing_data = BillingDetails.objects.filter(invoice_number=invoice_number)
+
+            # Check if billing data exists
+            if not billing_data.exists():
+                return Response({'error': f'Billing data with invoice number {invoice_number} not found.'}, status=status.HTTP_404_NOT_FOUND)
+
+            # Calculate total amount and grand total
+            total_amount = sum(detail.total_amount for detail in billing_data)
+            coupon_code = billing_data.first().coupon_code
+            coupon_discount = 0
+            if coupon_code:
+                coupon = Coupon.objects.filter(coupon_code=coupon_code).first()
+                if coupon:
+                    coupon_discount = coupon.amount
+            grand_total = total_amount - coupon_discount
+
+            # Serialize the billing data
+            billing_details = {
+                'customer_name': billing_data.first().customer_name,
+                'invoice_number': invoice_number,
+                'total_amount': total_amount,
+                'coupon_code': coupon_code,
+                'grand_total': grand_total,
+                'billing_details': [{'product_name': detail.product_name, 'price': detail.price, 'quantity': detail.quantity, 'total_amount': detail.total_amount} for detail in billing_data]
+            }
+
+            return Response(billing_details, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    def delete(self, request, *args, **kwargs):
+        try:
+            # Extract billing data identifier from URL parameter (e.g., invoice_number)
+            invoice_number = self.kwargs.get('invoice_number')
+
+            # Find billing data to delete
+            billing_data = BillingDetails.objects.filter(invoice_number=invoice_number)
+
+            # Check if billing data exists
+            if not billing_data.exists():
+                return Response({'error': f'Billing data with invoice number {invoice_number} not found.'}, status=status.HTTP_404_NOT_FOUND)
+
+            # Delete the billing data
+            billing_data.delete()
+
+            return Response({'message': f'Billing data with invoice number {invoice_number} deleted successfully.'}, status=status.HTTP_204_NO_CONTENT)
+
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
