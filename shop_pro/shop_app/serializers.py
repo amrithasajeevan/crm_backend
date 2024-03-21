@@ -71,3 +71,8 @@ class BillingDetailsSerializer(serializers.ModelSerializer):
     class Meta:
         model = BillingDetails
         fields = ['id', 'customer_name', 'phone_number', 'email', 'billing_date', 'invoice_date', 'invoice_number', 'product_name', 'price', 'quantity', 'total_amount', 'coupon_code', 'payment_status', 'payment_method']
+
+class CouponSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Coupon
+        fields = ['id', 'coupon_code', 'amount']

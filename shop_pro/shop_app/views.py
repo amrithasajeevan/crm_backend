@@ -285,6 +285,45 @@ class StockDetailAPIView(APIView):
         return Response({'error': 'Stock not found'}, status=status.HTTP_404_NOT_FOUND)
     
 
+class CouponList(APIView):
+    def get(self, request):
+        coupons = Coupon.objects.all()
+        serializer = CouponSerializer(coupons, many=True)
+        return Response(serializer.data)
+
+    def post(self, request):
+        serializer = CouponSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class CouponDetail(APIView):
+    def get_object(self, pk):
+        try:
+            return Coupon.objects.get(pk=pk)
+        except Coupon.DoesNotExist:
+            raise Http404
+
+    def get(self, request, pk):
+        coupon = self.get_object(pk)
+        serializer = CouponSerializer(coupon)
+        return Response(serializer.data)
+
+    def put(self, request, pk):
+        coupon = self.get_object(pk)
+        serializer = CouponSerializer(coupon, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def delete(self, request, pk):
+        coupon = self.get_object(pk)
+        coupon.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+    
+
 from django.db.models import Sum  # Import Sum function from Django
 import datetime
 from django.core.exceptions import ObjectDoesNotExist
