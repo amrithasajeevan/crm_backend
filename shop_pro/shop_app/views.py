@@ -286,117 +286,180 @@ class StockDetailAPIView(APIView):
     
 
 from django.db.models import Sum  # Import Sum function from Django
+import datetime
+from django.core.exceptions import ObjectDoesNotExist
+
+from django.db.models import Sum  # Import Sum function from Django
+from rest_framework import permissions
+
+class IsShopOwner(permissions.BasePermission):
+    """
+    Custom permission to only allow shop owners to add billing details.
+    """
+
+    def has_permission(self, request, view):
+        # Check if the user is authenticated and associated with any shop as its owner
+        return request.user.is_authenticated and request.user.shop_set.exists()
+    
+from rest_framework import permissions
+
+class IsShopOwner(permissions.BasePermission):
+    """
+    Custom permission to only allow shop owners to add billing details.
+    """
+
+    def has_permission(self, request, view):
+        # Check if the user is authenticated and associated with any shop as its owner
+        return request.user.is_authenticated and request.user.shop_set.exists()
 
 class BillingDetailsView(APIView):
+   
+    permission_classes = [IsAuthenticated, IsShopOwner]
+    authentication_classes = [TokenAuthentication]
+
     def post(self, request, *args, **kwargs):
         try:
-            # Retrieve product names and quantities from the request data
-            product_names = request.data.get('product_name').split(',')
-            quantities = [int(quantity) for quantity in request.data.get('quantity').split(',')]
-            
+            # Extract relevant information from the request data
+            customer_name = request.data.get('customer_name')
+            phone_number = request.data.get('phone_number')
+            email = request.data.get('email')
+            invoice_number = request.data.get('invoice_number')
+            coupon_code = request.data.get('coupon_code')
+            payment_status = request.data.get('payment_status')
+            payment_method = request.data.get('payment_method')
+            products_data = request.data.get('products')
+
             # Initialize variables to store total amount and billing details list
             total_amount = 0
             billing_details_list = []
 
-            # Iterate over product names and quantities
-            for product_name, quantity in zip(product_names, quantities):
+            for product_data in products_data:
+                product_name = product_data['product_name']
+                quantity = product_data['quantity']
+
                 # Retrieve the product based on the provided product_name
                 product = Product.objects.get(product_name=product_name)
 
+                # Check if stock is available for the product
+                stock_item = Stock.objects.get(productname=product_name)
+                if stock_item.quantity < quantity:
+                    return Response({'error': f'Insufficient stock for {product_name}'}, status=status.HTTP_400_BAD_REQUEST)
+
                 # Calculate the total amount for this item
-                item_total_amount = product.price * quantity
+                item_total_amount = product.selling_price * quantity
 
-                # Apply coupon code discount if available
-                coupon_code = request.data.get('coupon_code')
-                if coupon_code:
-                    # Assuming a fixed discount amount for the coupon code
-                    coupon_discount = 10  # Example: Fixed discount of 10 units
-                    item_total_amount -= coupon_discount
-
-                # Update the total amount with the current item's total amount
+                # Update the running total with the current item's total amount
                 total_amount += item_total_amount
 
-                # Create BillingDetails instance with populated fields
+                # Create billing details for each product
                 billing_details = BillingDetails(
-                    customer_name=request.data.get('customer_name'),
-                    phone_number=request.data.get('phone_number'),
-                    email=request.data.get('email'),
-                    invoice_number=request.data.get('invoice_number'),
+                    customer_name=customer_name,
+                    phone_number=phone_number,
+                    email=email,
+                    invoice_number=invoice_number,
                     product_name=product_name,
-                    price=product.price,
+                    price=product.selling_price,
                     quantity=quantity,
                     total_amount=item_total_amount,  # Use the total amount for this item
                     coupon_code=coupon_code,
-                    payment_status=request.data.get('payment_status'),
-                    payment_method=request.data.get('payment_method')
+                    payment_status=payment_status,
+                    payment_method=payment_method,
+                    billing_date=datetime.date.today(),
+                    invoice_date=datetime.date.today(),
                 )
                 billing_details.save()
 
                 # Append billing details to the list
                 billing_details_list.append({
                     'id': billing_details.id,
-                    'customer_name': billing_details.customer_name,
-                    'phone_number': billing_details.phone_number,
-                    'email': billing_details.email,
-                    'invoice_number': billing_details.invoice_number,
                     'product_name': billing_details.product_name,
                     'price': billing_details.price,
                     'quantity': billing_details.quantity,
-                    'total_amount': billing_details.total_amount,
-                    'coupon_code': billing_details.coupon_code,
-                    'payment_status': billing_details.payment_status,
-                    'payment_method': billing_details.payment_method
+                    'total_amount': billing_details.total_amount
                 })
 
+                # Update stock quantity
+                stock_item.quantity -= quantity
+                stock_item.save()
+
+            # Apply coupon code discount if available
+            coupon_discount = 0  # Default discount is 0
+            if coupon_code:
+                coupon = Coupon.objects.filter(coupon_code=coupon_code).first()
+                if coupon:
+                    coupon_discount = coupon.amount
+
+            # Subtract coupon code discount from the total amount
+            total_amount -= coupon_discount
+
             # Return response with total amount and billing details list
-            return Response({
+            response_data = {
                 'message': 'Billing details saved successfully.',
                 'total_amount': total_amount,
                 'billing_details': billing_details_list,
-                'grand_total': total_amount  # Return the total amount as grand total
-            }, status=status.HTTP_201_CREATED)
+                'grand_total': total_amount,  # Return the total amount as grand total
+                'customer_name': customer_name,
+                'phone_number': phone_number,
+                'email': email,
+                'invoice_number': invoice_number,
+                'coupon_code': coupon_code,
+                'payment_status': payment_status,
+                'payment_method': payment_method,
+                'billing_date': datetime.date.today(),
+                'invoice_date': datetime.date.today()
+            }
+
+            return Response(response_data, status=status.HTTP_201_CREATED)
 
         except Product.DoesNotExist:
             return Response({'error': 'Product not found.'}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-    def get(self, request, customer_name, *args, **kwargs):
-        try:
-            # Filter BillingDetails queryset based on the customer name
-            billing_details_queryset = BillingDetails.objects.filter(customer_name=customer_name)
-
-            # Serialize the billing details queryset
-            serializer = BillingDetailsSerializer(billing_details_queryset, many=True)
-
-            # Calculate total amount for the user
-            total_amount = billing_details_queryset.aggregate(total_amount=Sum('total_amount'))['total_amount']
-
-            # Return serialized billing details and total amount in the response
-            return Response({
-                'message': f'Full details of billing retrieved successfully for {customer_name}.',
-                'total_amount': total_amount if total_amount else 0,  # Set total amount to 0 if no records are found
-                'billing_details': serializer.data
-            }, status=status.HTTP_200_OK)
-
-        except Exception as e:
-            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
-
-    def put(self, request, pk, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
         try:
-            # Retrieve the billing detail object to update
-            billing_detail = BillingDetails.objects.get(pk=pk)
+            # Retrieve distinct customer names and invoice numbers
+            customers_and_invoices = BillingDetails.objects.values('customer_name', 'invoice_number').distinct()
 
-            # Deserialize the request data and update the billing detail object
-            serializer = BillingDetailsSerializer(billing_detail, data=request.data)
-            if serializer.is_valid():
-                serializer.save()
-                return Response({'message': 'Billing details updated successfully.'}, status=status.HTTP_200_OK)
-            else:
-                return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            # Initialize list to store billing information
+            billing_info = []
 
-        except BillingDetails.DoesNotExist:
-            return Response({'error': 'Billing detail not found.'}, status=status.HTTP_404_NOT_FOUND)
+            # Retrieve billing details for each distinct customer and invoice number
+            for item in customers_and_invoices:
+                customer_name = item['customer_name']
+                invoice_number = item['invoice_number']
+                
+                # Retrieve billing details based on customer name and invoice number
+                billing_details = BillingDetails.objects.filter(customer_name=customer_name, invoice_number=invoice_number)
+                
+                # Serialize the billing details
+                serialized_data = [{'product_name': detail.product_name, 'price': detail.price, 'quantity': detail.quantity, 'total_amount': detail.total_amount} for detail in billing_details]
+                
+                # Calculate the total amount for the invoice
+                total_amount = sum(detail.total_amount for detail in billing_details)
+
+                # Check if there is a coupon code applied
+                coupon_code = billing_details.first().coupon_code
+                coupon_discount = 0
+                if coupon_code:
+                    coupon = Coupon.objects.filter(coupon_code=coupon_code).first()
+                    if coupon:
+                        coupon_discount = coupon.amount
+
+                # Calculate grand total after subtracting coupon discount
+                grand_total = total_amount - coupon_discount
+
+                # Add customer name, invoice number, total amount, coupon code, and grand total to the list
+                billing_info.append({
+                    'customer_name': customer_name,
+                    'invoice_number': invoice_number,
+                    'total_amount': total_amount,
+                    'coupon_code': coupon_code,
+                    'grand_total': grand_total,
+                    'billing_details': serialized_data
+                })
+
+            return Response(billing_info, status=status.HTTP_200_OK)
+
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

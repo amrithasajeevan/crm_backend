@@ -78,22 +78,9 @@ class BillingDetails(models.Model):
     payment_status = models.CharField(max_length=20, choices=PAYMENT_STATUS_CHOICES, default='unpaid')
     payment_method = models.CharField(max_length=20, choices=PAYMENT_METHOD_CHOICES, blank=True,null=True)
 
-    def save(self, *args, **kwargs):
-        # Calculate total amount based on associated products and quantities
-        total_amount = self.price * self.quantity
-        
-        # Apply coupon code discount if available
-        if self.coupon_code:
-            try:
-                # Assuming a fixed discount amount for the coupon code
-                coupon_discount = 10  # Example: Fixed discount of 10 units
-                total_amount -= coupon_discount
-            except ValueError:
-                # Handle case where coupon code does not end with a number
-                pass
-        
-        # Update total_amount field with the calculated total amount
-        self.total_amount = total_amount
-        
-        # Call super to save the instance
-        super().save(*args, **kwargs)
+    
+
+class Coupon(models.Model):
+    coupon_code=models.CharField(max_length=100)
+    amount = models.IntegerField()
+

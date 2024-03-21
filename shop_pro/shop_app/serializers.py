@@ -37,8 +37,11 @@ class ShopSerializer(serializers.ModelSerializer):
     
     def to_representation(self, instance):
         representation = super().to_representation(instance)
-        representation['user'] = instance.user.first().username  # Get the first user's username
+        user = instance.user.first()
+        if user:
+            representation['user'] = user.username
         return representation
+
 
 class StockSerializer(serializers.ModelSerializer):
     class Meta:
