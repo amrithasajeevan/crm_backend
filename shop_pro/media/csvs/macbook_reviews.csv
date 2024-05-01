@@ -1,0 +1,951 @@
+Author,Review,Sentiment Score,Status
+Shankar G,Good choice,0.7,Positive
+Nitish Sharma,Value-for-money,0.0,Neutral
+Nitesh Kumar,Excellent,1.0,Positive
+Arijit Kundu,Great product,0.8,Positive
+Aryan Agarwal,Brilliant,0.9,Positive
+Kunal Kathe,Classy product,0.1,Positive
+Awani Kumar,Brilliant,0.9,Positive
+Omkar  Dake,Great product,0.8,Positive
+Flipkart Customer,Simply awesome,1.0,Positive
+Narayanan ER,"Invoice serial number mismatch issue,apple support rejecting",0.0,Neutral
+Akash Gupta,Wonderful,1.0,Positive
+Krishna Jha,Simply awesome,1.0,Positive
+Aditya Bhattacharya,Great product,0.8,Positive
+Sandeep,Super!,0.41666666666666663,Positive
+vivek,Good quality product,0.7,Positive
+shivam upadhyay,Very Good,0.9099999999999999,Positive
+shashi kant,Nice,0.6,Positive
+hari,Terrific,0.0,Neutral
+Anant Goyal,Worth every penny,0.3,Positive
+Mohammed  Roshan V,Terrific,0.0,Neutral
+shudhanshu shukla,Highly recommended,0.16,Positive
+vashim shekh,Highly recommended,0.16,Positive
+Utpal Basumatary Basumatary,Fabulous!,0.5,Positive
+Karthik kalidas,Fabulous!,0.5,Positive
+Sandip Mondal,Great product,0.8,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+Arvind Singh,Mind-blowing purchase,0.0,Neutral
+Parth Kapoor,Just wow!,0.125,Positive
+Vivek Rawat,Just okay,0.5,Positive
+Joyita Chowdhury,Terrific purchase,0.0,Neutral
+Flipkart Customer,Wonderful,1.0,Positive
+Prabal Tirkey,Mind-blowing purchase,0.0,Neutral
+Robin Mohanty,Simply awesome,1.0,Positive
+bhaskar divi,Great product,0.8,Positive
+Harshal Shah,Simply awesome,1.0,Positive
+Aman Kumar singh,Best in the market!,1.0,Positive
+Dinesh Purty,Awesome,1.0,Positive
+Ashutosh Kushwaha,Mind-blowing purchase >>> Just for it,0.0,Neutral
+Akky India,Simply awesome,1.0,Positive
+Shivendu Anand,Horrible,-1.0,Negative
+Sekhar Javvadi,Super!,0.41666666666666663,Positive
+Shubham Purohit,Mind-blowing purchase,0.0,Neutral
+Prakhar Agnihotri,Fabulous!,0.5,Positive
+Biswajit Basak,Classy product,0.1,Positive
+Nikhil Gupta,Simply awesome,1.0,Positive
+Dhanavath  Satish,Classy product,0.1,Positive
+Dhrupadi  Deka,Fabulous!,0.5,Positive
+Suresh,Awesome M1 chip air,1.0,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Anurag Ghosh,Awesome,1.0,Positive
+Sambit Mishra,Super!,0.41666666666666663,Positive
+Ipsita Bhattacharyya,Wonderful,1.0,Positive
+Flipkart Customer,Could be way better,0.5,Positive
+Akash  Kumar,Excellent,1.0,Positive
+Kalpesh Kundanani,Classy product,0.1,Positive
+Ashish Dubey,Must buy!,0.0,Neutral
+Raghunath  Das,Classy product,0.1,Positive
+Mohamed Yacoob J,Perfect product!,1.0,Positive
+Chirag  Dahiya,Classy product,0.1,Positive
+Vivek Sarma,Wonderful,1.0,Positive
+Mohit Malik,Fabulous!,0.5,Positive
+Flipkart Customer,Mind-blowing purchase,0.0,Neutral
+Manish kumar,Terrific purchase,0.0,Neutral
+Chandan  Mahato,Terrific purchase,0.0,Neutral
+Sanjay Yadav,Fabulous!,0.5,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+Ranjit krishnan,Simply awesome,1.0,Positive
+Shubham  Kadwe,Terrific,0.0,Neutral
+Kaushik  Kar,Mind-blowing purchase,0.0,Neutral
+Ramesh Kumar,Best in the market!,1.0,Positive
+Abhisek Agrawal,Nice product,0.6,Positive
+Swarnendu Kundu,An absolute beast!,0.25,Positive
+Sajid CN,Brilliant,0.9,Positive
+Raju  Kumar,Expected a better product,0.2,Positive
+Gopi Kishore,Wonderful,1.0,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+Hareesh UR,Super!,0.41666666666666663,Positive
+Flipkart Customer,Great product,0.8,Positive
+Sachin Hans,Terrific,0.0,Neutral
+Ricky  Khan,Awesome,1.0,Positive
+Flipkart Customer,Excellent,1.0,Positive
+Venkatesh Hariharan,Best buy at this point in time (October 2021),1.0,Positive
+BHAKCHAND TEMBHURNE,Classy product,0.1,Positive
+Logesh Narayanan,Great product,0.8,Positive
+Ayush Suman,Worth every penny,0.3,Positive
+Jayendra Pal Singh  Jadaun,Fair,0.7,Positive
+Rakesh Kumar,Excellent,1.0,Positive
+TAPAS KUMAR KHANDAI,Perfect product!,1.0,Positive
+ANIL KUMAR TIWARI,Best in the market!,1.0,Positive
+Abu Sunil,Great product,0.8,Positive
+Shivam Raj,Awesome,1.0,Positive
+Nikki Jamatia,Excellent,1.0,Positive
+Deepank  Sharma,Very Good,0.9099999999999999,Positive
+SADDAM HUSSAIN,Very Good,0.9099999999999999,Positive
+Abhi Ramola,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Highly recommended,0.16,Positive
+subhajit bhattacharya,Terrific purchase,0.0,Neutral
+PAVAN KALYAN KARRI,Must buy!,0.0,Neutral
+Indrajith Rajesh,Mind-blowing purchase,0.0,Neutral
+TASLEEM KHAN,Fabulous!,0.5,Positive
+TASLEEM KHAN,Fabulous!,0.5,Positive
+Mohammed,Delightful,1.0,Positive
+Rajesh Achanta,Fabulous!,0.5,Positive
+Gobind,Hated it!,-1.0,Negative
+Karthik Karthik,Brilliant,0.9,Positive
+Paritosh Singh,Nice,0.6,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Abhisek Mishra,Classy product,0.1,Positive
+chandan kumar,Worth every penny,0.3,Positive
+Harsh Gandhi,Great product,0.8,Positive
+Surya Mohapatra,Fabulous!,0.5,Positive
+Mohd Parvez  Khan,Wonderful,1.0,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+sachin kumar,Mind-blowing purchase,0.0,Neutral
+Nikhil Sheoran,Awesome,1.0,Positive
+Flipkart Customer,Super!,0.41666666666666663,Positive
+vikram agarwal,Brilliant,0.9,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Vandith Sreenivas,Fabulous!,0.5,Positive
+Babar Mir,Mind-blowing purchase,0.0,Neutral
+Sai Kiran Shekolla,Brilliant,0.9,Positive
+Flipkart Customer,Absolute rubbish!,0.25,Positive
+Avtar Singh,Fabulous!,0.5,Positive
+Adrish Mandal,Wonderful,1.0,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+Karthik Surya,Must buy!,0.0,Neutral
+Prashant Baghel,Really Nice,0.6,Positive
+Abhishek Mishra,Brilliant,0.9,Positive
+Vikash Pathak,Simply awesome,1.0,Positive
+Harshul Mehta,Mind-blowing purchase,0.0,Neutral
+Anuj Srivastava,Brilliant,0.9,Positive
+soham sarane,Terrific purchase,0.0,Neutral
+Anand Yadav,Wonderful,1.0,Positive
+Satya Narayan Seth,Terrific purchase,0.0,Neutral
+Flipkart Customer,Good,0.7,Positive
+Prateek  Siddhu,Just wow!,0.125,Positive
+Anas Khan,Great product,0.8,Positive
+MUHAMMAD TARIQ QURESHI,Great product,0.8,Positive
+Gaurav Panday,Mind-blowing purchase,0.0,Neutral
+Piyali Chakraborty,Just wow!,0.125,Positive
+Sandeep kakarla Sandeep,Simply awesome,1.0,Positive
+Subhransu  Sekhar,Just wow!,0.125,Positive
+Flipkart Customer,Pretty good,0.475,Positive
+Richard Abraham,Terrific,0.0,Neutral
+Harshit Ranjan,Must buy!,0.0,Neutral
+Vishal Vj,Worth every penny,0.3,Positive
+Sandipto Roy,Unsatisfactory,0.0,Neutral
+Prasad Reddy,Fabulous!,0.5,Positive
+Aditya Bhardwaj,Wonderful,1.0,Positive
+venkata tata,Great product,0.8,Positive
+A Sachidananda Patra,Wonderful,1.0,Positive
+Zemin Tripura,Terrific purchase,0.0,Neutral
+Rajesh Kumar,Terrific,0.0,Neutral
+Rajeesh PK,Best in the market!,1.0,Positive
+Deepak Kumar,Brilliant,0.9,Positive
+Ritwik Bhattacharyya,Best in the market!,1.0,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+Sunny Kumar,Fabulous!,0.5,Positive
+Harshad Salvador,Super!,0.41666666666666663,Positive
+Ayan Mondal,Best in the market!,1.0,Positive
+Rohan Talla,Perfect product!,1.0,Positive
+Ankur Sharma,Simply awesome,1.0,Positive
+Abhijeet  Batham,Super!,0.41666666666666663,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+Gopal Singh,Highly recommended,0.16,Positive
+Flipkart Customer,Must buy!,0.0,Neutral
+kartick  koley,Highly recommended,0.16,Positive
+Naresh  Bairagi,Best in the market!,1.0,Positive
+Dhruv Gokani,Best in the market!,1.0,Positive
+Prafful Walia,Highly recommended,0.16,Positive
+Prince Pritam,Just wow!,0.125,Positive
+Prince  Mathew,Great product,0.8,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+Vishnu Pillai,Awesome,1.0,Positive
+Akash Sharma,Just wow!,0.125,Positive
+Siddesh H,Best in the market!,1.0,Positive
+durga prasad karna,Highly recommended,0.16,Positive
+Manish Singh,Excellent,1.0,Positive
+Santosh Kumar Panuganti,Excellent,1.0,Positive
+harsh rajput,Great product,0.8,Positive
+Utpal,Worth every penny,0.3,Positive
+Flipkart Customer,Not recommended at all,0.0,Neutral
+Writawrik Bhattacharya,Just wow!,0.125,Positive
+Amal Vincent,Unsatisfactory,0.0,Neutral
+Ravish Ranjan,Terrific,0.0,Neutral
+Rahul Tiwari,Worth every penny,0.3,Positive
+Gokul Menon K,Best in the market!,1.0,Positive
+Priyanshu  Kumar,Excellent,1.0,Positive
+Ishan Bhatia,Very Good,0.9099999999999999,Positive
+Saksham Aggarwal,Worth every penny,0.3,Positive
+Sunil Kumar  Sahu,Wonderful,1.0,Positive
+Sathwik Upadhyaya,Best in the market!,1.0,Positive
+Vinith John,Terrific purchase,0.0,Neutral
+Santosh  Kumar,Terrific purchase,0.0,Neutral
+Ayush Sanj,Perfect product!,1.0,Positive
+Deepak Khati,Must buy!,0.0,Neutral
+Shivam  Kumar,Super!,0.41666666666666663,Positive
+Shabd Pratap,Terrific purchase,0.0,Neutral
+Rohit Maurya,Perfect product!,1.0,Positive
+Siddhant Satyam,Terrific,0.0,Neutral
+Rasna Kumari,Great product,0.8,Positive
+Subham Raj,Fabulous!,0.5,Positive
+Subham  Rout,Super!,0.41666666666666663,Positive
+Vikas,Worth every penny,0.3,Positive
+Harsha Pradeep Gunta,Wonderful,1.0,Positive
+Deepak Soni,Super!,0.41666666666666663,Positive
+Manoj Reddy Mulkalla,Simply awesome,1.0,Positive
+Rishab,Just wow!,0.125,Positive
+Shubham Musmade,Worth the money,0.3,Positive
+Abhishek  Sangya,Super!,0.41666666666666663,Positive
+Sat  Narain,Wonderful,1.0,Positive
+Ashitosh Lewate,Just Wow!,0.125,Positive
+Vijesh k p,Excellent,1.0,Positive
+Flipkart Customer,Just go for it,0.0,Neutral
+Praveen Madhavan,Very Good,0.9099999999999999,Positive
+Anand Raj,Perfect product!,1.0,Positive
+SUNNY KUMAR,Fabulous!,0.5,Positive
+Jasvir Singh,Good,0.7,Positive
+PRAKASH BIJARNIYA,Just wow!,0.125,Positive
+chiranjib acharjee,Highly recommended,0.16,Positive
+Kumar  Gaurav,Terrific purchase,0.0,Neutral
+Adarsh Mishra,Fair,0.7,Positive
+Flipkart Customer,Great product,0.8,Positive
+Selvaganam S,Excellent,1.0,Positive
+Mritunjoy  Kamila,Nice product,0.6,Positive
+Thajudeen  aboobaker,Simply awesome,1.0,Positive
+Flipkart Customer,Simply awesome,1.0,Positive
+Raj Ranjan Tripathi,Delightful,1.0,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+Akash Kumar,Great product,0.8,Positive
+Flipkart Customer,Wonderful,1.0,Positive
+Sparsh Singla,Perfect product!,1.0,Positive
+shiva yadav,Highly recommended,0.16,Positive
+Ayan Banerjee,Worth every penny,0.3,Positive
+Tarun Kumar,Super!,0.41666666666666663,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+Deepak  Bhange,Excellent,1.0,Positive
+BABU LAL  LAMBA,Wonderful,1.0,Positive
+Apurva Shah,Excellent,1.0,Positive
+Ashok Gopinathan,Best in the market!,1.0,Positive
+chandra sekhar,Simply awesome,1.0,Positive
+Vikramaditya Singh,Terrific,0.0,Neutral
+Jamshith P,Worth every penny,0.3,Positive
+Sanjeevi Saajan Chakravarthi,Just wow!,0.125,Positive
+Rajarshi Barui,Perfect product!,1.0,Positive
+Raising Star,Mind-blowing purchase,0.0,Neutral
+Mritunjay Kumar,Fabulous!,0.5,Positive
+Mohsin Tejani,Awesome,1.0,Positive
+Joydeep  Sinha,Terrific,0.0,Neutral
+Abhishek Pareek,Must buy!,0.0,Neutral
+Kapil Agrawal,Great product,0.8,Positive
+sumita verma,Classy product,0.1,Positive
+Ankur Kushwaha,Classy product,0.1,Positive
+Sobin Varghese Mathew,Excellent,1.0,Positive
+Mohit Parihar,Excellent,1.0,Positive
+Rishabh Singh,Great product,0.8,Positive
+Rajendra  Vishwakarma,Don't waste your money,-0.2,Negative
+Kaushik Ghosh,Very poor,-0.52,Negative
+Ismail Shaikh,Wonderful,1.0,Positive
+Bachanlal Sahu,Must buy!,0.0,Neutral
+Anurag G  Talukdar,Best in the market!,1.0,Positive
+Satish  Tarate,Terrific,0.0,Neutral
+Satyam  Miri,Perfect product!,1.0,Positive
+Charan Teja,Mind-blowing purchase,0.0,Neutral
+Rakesh Kumar,Awesome,1.0,Positive
+Susmita Mishra,Best in the market!,1.0,Positive
+Abhinav Kushwaha,Worth every penny,0.3,Positive
+Pramod M,Excellent,1.0,Positive
+Ashish C,Worth every penny,0.3,Positive
+deshraj gocher,Very Good,0.9099999999999999,Positive
+Manish Singh,Terrible product,-1.0,Negative
+Catherine  Singson,Decent product,0.16666666666666666,Positive
+Tanurjyoti Bala,Super!,0.41666666666666663,Positive
+yugank sehara,Waste of money!,-0.25,Negative
+Abhinab Haldar,Good,0.7,Positive
+Sahil Ali Tonse,Terrific purchase,0.0,Neutral
+Partha Pratim Chakraborty,Does the job,0.0,Neutral
+Nishant Patel,Great product,0.8,Positive
+Avinash  Plaha,Utterly Disappointed,-0.75,Negative
+Madhurjya Ray,Absolute rubbish!,0.25,Positive
+Fenil Tailor,Not good,-0.35,Negative
+DeprecatedParam,Excellent,1.0,Positive
+Shubhadip Sarkar,Best in the market!,1.0,Positive
+Sandip Vazirani,Wonderful,1.0,Positive
+Flipkart Customer,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,kidda good,0.7,Positive
+Mohit Kumar,Pretty good,0.475,Positive
+Krishna Chikhale,Great product,0.8,Positive
+PROMOD KUMAR TAKRI,Highly recommended,0.16,Positive
+Vishal Chandanshiv,Must buy!,0.0,Neutral
+Bishnu Das,Great product,0.8,Positive
+Aniket  Kundu,Wonderful,1.0,Positive
+Pawan Kumar,Worth every penny,0.3,Positive
+Ajay Gupta,Super!,0.41666666666666663,Positive
+Aman  Shiwale,Good quality product,0.7,Positive
+Anvesh Kassa,Perfect product!,1.0,Positive
+Flipkart Customer,Very Good,0.9099999999999999,Positive
+Sandeep Bachu,Brilliant,0.9,Positive
+yedu krishna,Awesome,1.0,Positive
+Arvind Kumar,Great product,0.8,Positive
+RAVI  SINGH,Terrific purchase,0.0,Neutral
+Mohit Saini,Just wow!,0.125,Positive
+Rajkumar  Biswal,Delightful,1.0,Positive
+jisha Priyavas,Terrific,0.0,Neutral
+Saicharan  Raju,Terrific purchase,0.0,Neutral
+Sai teja Thaduri,Does the job,0.0,Neutral
+Abhijeet Tomar,Fabulous!,0.5,Positive
+Ashutosh yadav,Wonderful,1.0,Positive
+Tetra hydral,Perfect product!,1.0,Positive
+Subramanian Krish,Highly recommended,0.16,Positive
+Chandan Kumar,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Super!,0.41666666666666663,Positive
+Gaurav Chimurkar,Perfect product!,1.0,Positive
+Abu Tahir,Awesome,1.0,Positive
+Shubham Talole,Perfect product!,1.0,Positive
+Pawan Mehta,Brilliant,0.9,Positive
+Ganesh R,Worth the money,0.3,Positive
+Vishal kumar Mahato,Worth every penny,0.3,Positive
+Abhishek Anand,Awesome,1.0,Positive
+Shubham Shandilya,Wonderful,1.0,Positive
+Krushna Chandra Panda,Perfect product!,1.0,Positive
+Samir Khan,Perfect product!,1.0,Positive
+Raju K,Excellent,1.0,Positive
+abrar khatik,Just wow!,0.125,Positive
+Arun Kumar,Wonderful,1.0,Positive
+Sumanta Kumar   Behera,Awesome,1.0,Positive
+Flipkart Customer,Best in the market!,1.0,Positive
+ABISHEK WATSON,Classy product,0.1,Positive
+Pradeep Kumar,Terrific purchase,0.0,Neutral
+Vishal DJ,Expected a better product,0.2,Positive
+Rehan  khan,Excellent,1.0,Positive
+PNB AC VIJAY KUMAR 5185831,Brilliant,0.9,Positive
+Harshit Raj,Awesome,1.0,Positive
+Nishant Kumar,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Best in the market!,1.0,Positive
+P.P. Karthi keyan,Super!,0.41666666666666663,Positive
+Mohit Kumar,Terrific,0.0,Neutral
+Ganesh Raja,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Excellent,1.0,Positive
+Kenny Anand  Sukumaran,Simply awesome,1.0,Positive
+Vignesh Ram,Mind-blowing purchase,0.0,Neutral
+Ankit  Jena,Terrific,0.0,Neutral
+Amit kumar Dubey,Mind-blowing purchase,0.0,Neutral
+Jose A Rajan,Perfect product!,1.0,Positive
+Vamsi Katta,Great product,0.8,Positive
+Navneet Yadav,Excellent,1.0,Positive
+Shetketu Mitra,Excellent,1.0,Positive
+mohit kumar,Classy product,0.1,Positive
+Agastya Rudraa Mathur,Fabulous!,0.5,Positive
+ANILKUMAR SINGLA,Brilliant,0.9,Positive
+Sasi Kumar,Classy product,0.1,Positive
+Long Sodar Terang,Wonderful,1.0,Positive
+Himanshu Valecha,Just wow!,0.125,Positive
+Sajal  Jana,Awesome,1.0,Positive
+Amogh Harsh,Brilliant,0.9,Positive
+KK Bhardwaj,Good quality product,0.7,Positive
+Sanjay  Sharma,Fabulous!,0.5,Positive
+Shiv Pratap,Worth every penny,0.3,Positive
+Mithun M,Must buy!,0.0,Neutral
+Sandip Bhosale,Wonderful,1.0,Positive
+Abhishek Kumar,Great product,0.8,Positive
+Vishal Kumar Pandey,Just wow!,0.125,Positive
+Saurabh  Kumar,Best in the market!,1.0,Positive
+Satish Kumar,Terrific,0.0,Neutral
+krishan  kant,Wonderful,1.0,Positive
+Flipkart Customer,Excellent,1.0,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Mujahid Bari,Classy product,0.1,Positive
+CHAITANYA DAMARASINGU,Great product,0.8,Positive
+Niraj Kumar,Fabulous!,0.5,Positive
+Flipkart Customer,Perfect product!,1.0,Positive
+Bhukya Suresh,Must buy!,0.0,Neutral
+Adone George,Excellent,1.0,Positive
+Prasun Banerjee,Worth every penny,0.3,Positive
+Manish Kumar,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Wonderful,1.0,Positive
+Flipkart Customer,Terrific,0.0,Neutral
+Zion Sandeep,Terrific purchase,0.0,Neutral
+Bimal  Kriti,Worth every penny,0.3,Positive
+Sujay Desai,Terrific purchase,0.0,Neutral
+Tapaswini  Panda,Super!,0.41666666666666663,Positive
+Jinu Varghese,Classy product,0.1,Positive
+kapil vishwakarma,Classy product,0.1,Positive
+Nagarajan,Fabulous!,0.5,Positive
+Shivam Gupta,Best in the market!,1.0,Positive
+Gnanaguhan Vijayarajan,Must buy!,0.0,Neutral
+Nietesh Jamwal,Highly recommended,0.16,Positive
+Mohammad.Saifuddin. Riad,Brilliant,0.9,Positive
+Vinayak Singh,Super!,0.41666666666666663,Positive
+Anil Kumar Chindam,Awesome,1.0,Positive
+Sourav Arora,Worth every penny,0.3,Positive
+vinay kumar Beegalu,Must buy!,0.0,Neutral
+VENKATESHWARLU GUNDLA,Perfect product!,1.0,Positive
+Abhishek Rawat,Wonderful,1.0,Positive
+Vicky Bachani,Super!,0.41666666666666663,Positive
+Ashutosh Bais,Highly recommended,0.16,Positive
+Ramakrishna Nidamanuri,Brilliant,0.9,Positive
+Akash  Debnath,Mind-blowing purchase,0.0,Neutral
+Chirag Tailor,Wonderful,1.0,Positive
+Adarsh Kumar,Just wow!,0.125,Positive
+Flipkart Customer,Must buy!,0.0,Neutral
+Flipkart Customer,Pretty good,0.475,Positive
+Talib Islam,Terrific purchase,0.0,Neutral
+Nikhil  sharma,Super!,0.41666666666666663,Positive
+Chiranjivi Padole,Just wow!,0.125,Positive
+Vishal Kumar,Worth every penny,0.3,Positive
+Akash  Kumar,Excellent,1.0,Positive
+Trilochan Singh,Worth every penny,0.3,Positive
+SHASHANK GARG,Brilliant,0.9,Positive
+Sumit Yadav,Pretty good,0.475,Positive
+Manish kumar Sahoo,Pretty good,0.475,Positive
+Nikhil Mehta,Terrific,0.0,Neutral
+Manish  Jaiswal,Super!,0.41666666666666663,Positive
+Nitesh Sharma,Excellent,1.0,Positive
+Deepak  Revankar,Awesome,1.0,Positive
+Liju Thomas,Excellent,1.0,Positive
+Nikhil Prakash,Wonderful,1.0,Positive
+Ramakanth Raviteja,Worth every penny,0.3,Positive
+Abhijit Roy,Worth every penny,0.3,Positive
+Abhijit  Borgohain,Delightful,1.0,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Ankit  Kumar,Just wow!,0.125,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Raja Malleswar Kolli,Worth every penny,0.3,Positive
+Saumil Gundla,Classy product,0.1,Positive
+Amiya Anand,Fabulous!,0.5,Positive
+Nitin Shenoy,Worth the money,0.3,Positive
+Ritesh Sinha,Terrific,0.0,Neutral
+Samuel Francis,Wonderful,1.0,Positive
+Narendra M,Highly recommended,0.16,Positive
+Flipkart Customer,Highly recommended,0.16,Positive
+Flipkart Customer,Classy product,0.1,Positive
+Devendra Choudhary,Worth every penny,0.3,Positive
+Lotus Wangchuk,Terrific,0.0,Neutral
+Rishav Kumar,Just wow!,0.125,Positive
+Saravanan  A v,Best in the market!,1.0,Positive
+Soumili  Nath,Classy product,0.1,Positive
+Parag Shroff,Perfect product!,1.0,Positive
+Nandakrishnan R,Fabulous!,0.5,Positive
+Nitin Salunke,Excellent,1.0,Positive
+Neeraj Kumar,Absolute rubbish!,0.25,Positive
+Sumit Sogarwal,Unsatisfactory,0.0,Neutral
+kapil jain,Very poor,-0.52,Negative
+Flipkart Customer,Hated it!,-1.0,Negative
+Deepak Pandit,Terrific purchase,0.0,Neutral
+Kundan Jha,Really Nice,0.6,Positive
+zubair shareef,Terrible product,-1.0,Negative
+Flipkart Customer,Highly recommended,0.16,Positive
+sheron das,Very Good,0.9099999999999999,Positive
+Debasish Sahoo,Brilliant,0.9,Positive
+Praveen Kumar,Highly recommended,0.16,Positive
+Anmol sharma,Very poor,-0.52,Negative
+Jitendra Joshi,Waste of money!,-0.25,Negative
+Subhrant  Chauhan,Nice,0.6,Positive
+Flipkart Customer,Could be way better,0.5,Positive
+Adnan khan,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Excellent,1.0,Positive
+Srikanth Gowda,Worst camera,-1.0,Negative
+Ananya  banerjee,Simply awesome,1.0,Positive
+Sujit Sarkar,Good choice,0.7,Positive
+SATAPATHY RAJ Aryan,Brilliant,0.9,Positive
+Amit Sharma,Awesome,1.0,Positive
+Gaurav T,Worth every penny,0.3,Positive
+Manish,Terrific purchase,0.0,Neutral
+Netrapal Sharma,Brilliant,0.9,Positive
+Ashish Raj,Terrific purchase,0.0,Neutral
+Rahul P,Awesome,1.0,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+Vishal  Singh,Simply awesome,1.0,Positive
+Ankur Agarwal,Brilliant,0.9,Positive
+Rohit  Bhardwaj,Terrific purchase,0.0,Neutral
+Manish Pandit,Just okay,0.5,Positive
+Flipkart Customer,Pretty good,0.475,Positive
+Flipkart Customer,Great product,0.8,Positive
+Bhupendra Singh,Wonderful,1.0,Positive
+Surya Mani Pandey,Simply awesome,1.0,Positive
+Kanhaiya Mishra,Best in the market!,1.0,Positive
+Debashish patra,Fabulous!,0.5,Positive
+Rakesh Kumar Nayak,Pretty good,0.475,Positive
+Kaushal Kumar,Does the job,0.0,Neutral
+Apurva Pandey,Highly recommended,0.16,Positive
+Flipkart Customer,Fair,0.7,Positive
+Leela Royal,Great product,0.8,Positive
+Tarun Tarun,Fabulous!,0.5,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+DALIM DEY,Highly recommended,0.16,Positive
+Suprovath Mukhopadhyay,Terrific,0.0,Neutral
+Abhishek Kumar,Great product,0.8,Positive
+Asmi   Mundalik,Worth the money,0.3,Positive
+Rahul Desai,Value-for-money,0.0,Neutral
+Vikash Jha,Perfect product!,1.0,Positive
+Vaibhav  Singh,Good quality product,0.7,Positive
+Ram,Awesome,1.0,Positive
+Gokul Nath,Great product,0.8,Positive
+Srobhona  Goswami,Highly recommended,0.16,Positive
+Flipkart Customer,Mind-blowing purchase,0.0,Neutral
+Vishal Bhosale,Classy product,0.1,Positive
+VIJAY CHAWLA,Terrific,0.0,Neutral
+Sandip Guchait,Excellent,1.0,Positive
+Avaneesh  Singh,Excellent,1.0,Positive
+sunil kovi,Worth the money,0.3,Positive
+Krishna Singhal,Value-for-money,0.0,Neutral
+Mohit Nandurkar,Horrible,-1.0,Negative
+Mannat  makkar,Simply awesome,1.0,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+Raj Patil,Perfect product!,1.0,Positive
+Saksham Rajpal,Great product,0.8,Positive
+Saumya subhasish  Barik,Good quality product,0.7,Positive
+Harshit Sharma,Great product,0.8,Positive
+Faraz Ansari,Mind-blowing purchase,0.0,Neutral
+Mrunal  Raut,Unsatisfactory,0.0,Neutral
+Ayush  Dwivedi,Great product,0.8,Positive
+Ram Thirumalai,Classy product,0.1,Positive
+Ajay Salwahan,Fabulous!,0.5,Positive
+subham  panja,Mind-blowing purchase,0.0,Neutral
+Alex Joy,Wonderful,1.0,Positive
+Bivash Roy,Classy product,0.1,Positive
+Gml Simte,Mind-blowing purchase,0.0,Neutral
+Ramakant Soni,Did not meet expectations,0.0,Neutral
+JUBBAR MONDAL,Waste of money!,-0.25,Negative
+Flipkart Customer,Very poor,-0.52,Negative
+Aakash,Awesome,1.0,Positive
+NARENDRA KUMAR  SAHOO,Awesome,1.0,Positive
+Vishal Sharma,Worth every penny,0.3,Positive
+Shubham  Jaiswal,Terrific purchase,0.0,Neutral
+Mohd  Ayoub,Fabulous!,0.5,Positive
+Maneesh Kumar  Kumar,Great product,0.8,Positive
+DURGESH NANDINI SHARMA,Perfect product!,1.0,Positive
+Deependra Yadav,Worth every penny,0.3,Positive
+Abhishek Maurya,Perfect product!,1.0,Positive
+manish singh,Perfect product!,1.0,Positive
+Virat  Bhaskar,Super!,0.41666666666666663,Positive
+Abhishek,Worth the money,0.3,Positive
+Vishal Sable,Great product,0.8,Positive
+Mrr Zahir,Highly recommended,0.16,Positive
+Madan  Kumar,Highly recommended,0.16,Positive
+Parth Dave,Mind-blowing purchase,0.0,Neutral
+sourabh,Excellent,1.0,Positive
+sourabh,Highly recommended,0.16,Positive
+Suryansh  Mishra,Brilliant,0.9,Positive
+Pallav,Great product,0.8,Positive
+Prabhu Srinivas,Awesome,1.0,Positive
+Manoj kumar  Gupta,Classy product,0.1,Positive
+Rsamuel17 Yalakapati,Great product,0.8,Positive
+Rahul Sao,Super!,0.41666666666666663,Positive
+ADARSH SINGH,Awesome,1.0,Positive
+Kaushal Kishor,Value-for-money,0.0,Neutral
+Sunny Dey,Simply awesome,1.0,Positive
+Pinky Bhattacharyya,Must buy!,0.0,Neutral
+chandan vishwakarma,Classy product,0.1,Positive
+Sivakumar  M,Mind-blowing purchase,0.0,Neutral
+Ram Asra Thakur,Nice product,0.6,Positive
+Anshuman Nandi,Best in the market!,1.0,Positive
+Narayan Jadhav,Just wow!,0.125,Positive
+Rajendra Charan,Fabulous!,0.5,Positive
+Puran Chand,Very Good,0.9099999999999999,Positive
+Vivek  Pd,Classy product,0.1,Positive
+Atul Kumar,Delightful,1.0,Positive
+Nitya Mishra,Terrific,0.0,Neutral
+Aakancha  Bari,Awesome,1.0,Positive
+Rahul Solanki,Terrific,0.0,Neutral
+DeprecatedParam,Awesome,1.0,Positive
+Naveen  Patel,Awesome,1.0,Positive
+Himanshu Solanki,Classy product,0.1,Positive
+Arsalan Khan,Worth every penny,0.3,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+faraz chaudhary,Just wow!,0.125,Positive
+DeprecatedParam,Just wow!,0.125,Positive
+Virendra kumar Meena,Simply awesome,1.0,Positive
+Rohit Customer,Terrific,0.0,Neutral
+AMLAN  DAS,Wonderful,1.0,Positive
+Taranpreet Singh,Brilliant,0.9,Positive
+Owais Khan,Super!,0.41666666666666663,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+Rajesh  Kundara,Super!,0.41666666666666663,Positive
+T R VANAJA,Great product,0.8,Positive
+Mongal sing Hanse,Delightful,1.0,Positive
+Bharathkanna B,Worth every penny,0.3,Positive
+Bablu Choudhary,Terrific purchase,0.0,Neutral
+Syed Rayyan,Just wow!,0.125,Positive
+Harsh  Patel,Super!,0.41666666666666663,Positive
+Anurag Srivastav,Awesome,1.0,Positive
+sunil belaj,Highly recommended,0.16,Positive
+vikas  sharma,Brilliant,0.9,Positive
+Abhishek Yadav,Terrific,0.0,Neutral
+Poodur Paramesh,Worth the money,0.3,Positive
+Sahil Raj,Powerful MAC,0.3,Positive
+pankaj  yadav,Highly recommended,0.16,Positive
+Rajan  Jha,Excellent,1.0,Positive
+Sk Rohim Ali,Highly recommended,0.16,Positive
+Muthu,Great product,0.8,Positive
+Aadarsh  Kumar,Must buy!,0.0,Neutral
+Aakash Gupta,Wonderful,1.0,Positive
+Himanshu Nagar,Brilliant,0.9,Positive
+Vishv Bhardwaj,Classy product,0.1,Positive
+Ayush Singh,Classy product,0.1,Positive
+Kamuni Dhanraj,Brilliant,0.9,Positive
+Prakhar Saxena,Highly recommended,0.16,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+Flipkart Customer,Wonderful,1.0,Positive
+Varun  Pk,Excellent,1.0,Positive
+Priyanka  Dey,Simply awesome,1.0,Positive
+SHREYASH HORE,Best in the market!,1.0,Positive
+Flipkart Customer,Mind-blowing purchase,0.0,Neutral
+Siddharth Suneeth,Worth every penny,0.3,Positive
+Harendra Chauhan,Terrific,0.0,Neutral
+Hitesh Kalia,Simply awesome,1.0,Positive
+Aditya Mishra,Best in the market!,1.0,Positive
+ABHIJEET SRIVASTAVA,Just wow!,0.125,Positive
+ranusingh patel,Great product,0.8,Positive
+Rajeevkumar Singh,Great product,0.8,Positive
+SURAJ Das,Fabulous!,0.5,Positive
+Ruchika Bhardwaj,Best in the market!,1.0,Positive
+rithik romeo,Classy product,0.1,Positive
+Flipkart Customer,Must buy!,0.0,Neutral
+Ojaswini Verma,Classy product,0.1,Positive
+Arup  Gain,Value-for-money,0.0,Neutral
+Pankaj Kumar Yadav,Brilliant,0.9,Positive
+Vignesh D,Terrific purchase,0.0,Neutral
+Shesha sagar,Terrific,0.0,Neutral
+anuj gupta,Must buy!,0.0,Neutral
+Flipkart Customer,Must buy!,0.0,Neutral
+Siril V K,Value-for-money,0.0,Neutral
+Flipkart Customer,Brilliant,0.9,Positive
+Zibran Khan,Wonderful,1.0,Positive
+Rudra  Sing,Mind-blowing purchase,0.0,Neutral
+Gopal Surushe,Highly recommended,0.16,Positive
+Flipkart Customer,Great product,0.8,Positive
+Gurpreet Singh Rana,Worth every penny,0.3,Positive
+BOB HAZRA,Mind-blowing purchase,0.0,Neutral
+Sarveshwar  B,Terrific,0.0,Neutral
+Gaurav Dubey,Highly recommended,0.16,Positive
+Sanketh Kulal,Worth every penny,0.3,Positive
+AKASH  SHAKYA G,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Great product,0.8,Positive
+Flipkart Customer,Awesome,1.0,Positive
+Mohammad Asif,Just okay,0.5,Positive
+Harish  Meena,Classy product,0.1,Positive
+Abhinav G V,Fabulous!,0.5,Positive
+Mohammed  Nishad,Worth every penny,0.3,Positive
+Yuvraj  Bhagat,Worth every penny,0.3,Positive
+Somnath Mali,Terrific purchase,0.0,Neutral
+Akash Maurya,Excellent,1.0,Positive
+Ankit Kumar,Worth every penny,0.3,Positive
+kondareddy marthula,Highly recommended,0.16,Positive
+Manish,Wonderful,1.0,Positive
+Hema Sundar,Best in the market!,1.0,Positive
+monish hr,Worth every penny,0.3,Positive
+B. Naveen Reddy,Just okay,0.5,Positive
+Shubham Sharma,Mind-blowing purchase,0.0,Neutral
+Gourahari Behera,Best in the market!,1.0,Positive
+Prashant Shroff,Excellent,1.0,Positive
+Flipkart Customer,Great product,0.8,Positive
+Arpit Kumar,Just wow!,0.125,Positive
+Rohan Narayan Singh,Terrific,0.0,Neutral
+Akshay Rao,Wonderful,1.0,Positive
+INDRA KUMAR  JANGID,Value-for-money,0.0,Neutral
+Arun Sharma,Great product,0.8,Positive
+Amit Prasad,Wonderful,1.0,Positive
+Nainsi Gupta,Perfect product!,1.0,Positive
+Piyush  Mokde,Wonderful,1.0,Positive
+Flipkart Customer,Best in the market!,1.0,Positive
+Ujjwal Jha,Very Good,0.9099999999999999,Positive
+Venkat Arjun,Good quality product,0.7,Positive
+Abhishek  Mathur,Super!,0.41666666666666663,Positive
+karan saxena,Worth every penny,0.3,Positive
+Ujjwal Kumar,Wonderful,1.0,Positive
+Purvesh Chaudhari,Good quality product,0.7,Positive
+Sunny Kumar,Terrific,0.0,Neutral
+sarath jakka,Absolute rubbish!,0.25,Positive
+Chandradhar Rao,Worth every penny,0.3,Positive
+Flipkart Customer,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Good choice,0.7,Positive
+Jayshankar  Singh,Best in the market!,1.0,Positive
+Flipkart Customer,Best in the market!,1.0,Positive
+Aditya  Pundir,Simply awesome,1.0,Positive
+Bhushan Barde,Worth every penny,0.3,Positive
+mohd meharaj,Must buy!,0.0,Neutral
+Bibhash Pradhan,Delightful,1.0,Positive
+Vaibhav Seth,Must buy!,0.0,Neutral
+sandeep kumar,Brilliant,0.9,Positive
+Abhishek,Worth every penny,0.3,Positive
+Alok Gupta,Must buy!,0.0,Neutral
+Ankush jassi jassi,Highly recommended,0.16,Positive
+Flipkart Customer,Delightful,1.0,Positive
+Shilpa Devi,Awesome,1.0,Positive
+Sachin Hande,Classy product,0.1,Positive
+Sundram singh,Terrific purchase,0.0,Neutral
+Jay Kundrapu,Mind-blowing purchase,0.0,Neutral
+saurabh singh,Great product,0.8,Positive
+Bittu Singh,Good quality product,0.7,Positive
+Flipkart Customer,Highly recommended,0.16,Positive
+Munendra Kumar,Terrific purchase,0.0,Neutral
+Mrinmay Das,Super!,0.41666666666666663,Positive
+Flipkart Customer,Does the job,0.0,Neutral
+Sundarrajan K,Terrific,0.0,Neutral
+Flipkart Customer,Must buy!,0.0,Neutral
+prem nikam,Highly recommended,0.16,Positive
+warnit vaibhav,Worth every penny,0.3,Positive
+Shaik Dall basha,Terrific purchase,0.0,Neutral
+Flipkart Customer,Must buy!,0.0,Neutral
+Shanmadan,Must buy!,0.0,Neutral
+Vijay Agrawal,Worth every penny,0.3,Positive
+Chetan Jetwal,Very Good,0.9099999999999999,Positive
+Rishabh Bhadouria,Just wow!,0.125,Positive
+Nikhil Tatkondawar,Best in the market!,1.0,Positive
+Aavez Shaikh,Fabulous!,0.5,Positive
+Nagaraju P,Must buy!,0.0,Neutral
+RAJENDRA B,Mind-blowing purchase,0.0,Neutral
+Naval  Kishor,Highly recommended,0.16,Positive
+Pankaj Kumar,Classy product,0.1,Positive
+Praveen kumar Verma,Must buy!,0.0,Neutral
+Hemant Choudhary,Fabulous!,0.5,Positive
+Yogeshwar Gopi,Perfect product!,1.0,Positive
+Abhishek  Sangya,Good quality product,0.7,Positive
+Philimon Nag,Does the job,0.0,Neutral
+Rahul M,Worth every penny,0.3,Positive
+Kaushik  Gadagoju,Fabulous!,0.5,Positive
+Vijay Annem,Wonderful,1.0,Positive
+Pankaj Kumar Jana,Delightful,1.0,Positive
+Abhishek  Banerjee,Worth every penny,0.3,Positive
+Jay Verma,Best in the market!,1.0,Positive
+Anant Agarwal,Beyond Incredible.,0.9,Positive
+Nitin Vashishth,Worth every penny,0.3,Positive
+SAURAV JHA,Excellent,1.0,Positive
+Ashutosh Kumar,Terrific,0.0,Neutral
+Prateek Shastri,Must buy!,0.0,Neutral
+anubhab dash,Perfect product!,1.0,Positive
+Mohit Chaprana,Fabulous!,0.5,Positive
+Vishal Y,Fabulous!,0.5,Positive
+Vijay  Jhajharia,Simply awesome,1.0,Positive
+Nenavath Sandeep,Highly recommended,0.16,Positive
+Jatin Bhatia,Delightful,1.0,Positive
+Praharsha Pavan,Highly recommended,0.16,Positive
+Arun  Kallode,Highly recommended,0.16,Positive
+Siddharth Mishra,Great product,0.8,Positive
+Saurav Kumar,Excellent,1.0,Positive
+Nitheesh P,Highly recommended,0.16,Positive
+Arvind kumar  Pandey,Super!,0.41666666666666663,Positive
+Thandup Gompo  Bhutia,Mind-blowing purchase,0.0,Neutral
+Shaik Hidayath,Super!,0.41666666666666663,Positive
+Amar deepak,Brilliant,0.9,Positive
+swapnil,Brilliant,0.9,Positive
+Pradeep Chaurasia,Must buy!,0.0,Neutral
+Kumar Saurav,Fabulous!,0.5,Positive
+Vaibhav  Viraj,Classy product,0.1,Positive
+Flipkart Customer,Awesome,1.0,Positive
+Abdul Quaiyum,Excellent,1.0,Positive
+Hritik  Dey,Highly recommended,0.16,Positive
+Abhishek  vikal,Wonderful,1.0,Positive
+Somil  Kumar,Classy product,0.1,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Aditya Anand,Simply awesome,1.0,Positive
+Deepankar Deori Bharali,Wonderful,1.0,Positive
+Sambit Paul,Worth every penny,0.3,Positive
+Pratik Mandi,Simply awesome,1.0,Positive
+Farhina  Khan,Mind-blowing purchase,0.0,Neutral
+Jitendra Singh,Simply awesome,1.0,Positive
+Saksham Gera,Terrific purchase,0.0,Neutral
+Subha Banerjee,Awesome,1.0,Positive
+Bharadwaj Juloori,Nice product,0.6,Positive
+Aditya vardhan,Perfect product!,1.0,Positive
+Vivek Ranjan,Great product,0.8,Positive
+Kiran Chand,Must buy!,0.0,Neutral
+Flipkart Customer,Fabulous!,0.5,Positive
+Reuben Roy,Value-for-money,0.0,Neutral
+Flipkart Customer,Just wow!,0.125,Positive
+Naveen kuamr,Value-for-money,0.0,Neutral
+S Thienlaljoy Gangte,Best in the market!,1.0,Positive
+Mahesh  Babu,Fabulous!,0.5,Positive
+aditi vithal,Must buy!,0.0,Neutral
+kushal MAROTHI,Brilliant,0.9,Positive
+Piyush  Rajput,Simply awesome,1.0,Positive
+Flipkart Customer,Simply awesome,1.0,Positive
+Flipkart Customer,Worth the money,0.3,Positive
+Siddhanta Mishra,Mind-blowing purchase,0.0,Neutral
+Nitu guwalani,Terrific purchase,0.0,Neutral
+Vaibhav Gupta,Perfect for video editing but not for general users,0.525,Positive
+Shiva Sheshendra,Buy and Enjoy...,0.4,Positive
+Flipkart Customer,Terrific,0.0,Neutral
+Flipkart Customer,Super!,0.41666666666666663,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Aditya Pathak,Worth every penny,0.3,Positive
+Prandeep Saikia,Classy product,0.1,Positive
+Vishvjeet Singh,Perfect product!,1.0,Positive
+Apoorav Vyas,Good choice,0.7,Positive
+Flipkart Customer,Classy product,0.1,Positive
+Chandana  Sri,Mind-blowing purchase,0.0,Neutral
+Rajhans  Kumar,Worth every penny,0.3,Positive
+Sonu Gupta,Wonderful,1.0,Positive
+Ubaid Bashir,Worth every penny,0.3,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+jayith k,Worth the money,0.3,Positive
+Saurabh Kumar,Best in the market!,1.0,Positive
+Saurabh Kumar,Brilliant,0.9,Positive
+Flipkart Customer,Wonderful,1.0,Positive
+Avanish Kumar,Simply awesome,1.0,Positive
+ANIL PEDNEKAR,Terrific,0.0,Neutral
+Dayananda B.N,Brilliant,0.9,Positive
+Tanya Tewari,Excellent,1.0,Positive
+pavan kumar,Very Good,0.9099999999999999,Positive
+Manas Ranjan Mishra,Perfect product!,1.0,Positive
+Chirag Jangra,Simply awesome,1.0,Positive
+Nikhilesh Mannava,Terrific,0.0,Neutral
+Pratik Vyas,Good choice,0.7,Positive
+Chandan  Brahma,Great product,0.8,Positive
+Rupam Sethi,Must buy!,0.0,Neutral
+Shabu  KR,Super!,0.41666666666666663,Positive
+Barun  Debnath,Mind-blowing purchase,0.0,Neutral
+Dr Shasanka Sekhar  Borkotoky,Great product,0.8,Positive
+Flipkart Customer,Best in the market!,1.0,Positive
+Amit Kaveeshwar,Mind-blowing purchase,0.0,Neutral
+Punith SB,Best in the market!,1.0,Positive
+Mohd Kabir,Delightful,1.0,Positive
+Madhu kiran reddy,Awesome,1.0,Positive
+RASHMI RANJAN MOHANTA,Value-for-money,0.0,Neutral
+Subham Kumar Roy,Excellent,1.0,Positive
+Beauty  Kumari,Worth every penny,0.3,Positive
+Ayushi Godha,Terrific purchase,0.0,Neutral
+Amlan Dutta,Awesome,1.0,Positive
+Amlan Dutta,Just wow!,0.125,Positive
+Ayaan,Must buy!,0.0,Neutral
+Roshan Ali,Terrific,0.0,Neutral
+Flipkart Customer,Great product,0.8,Positive
+Nilotpal Sarma,Great product,0.8,Positive
+Satyadeo Kumar,Excellent,1.0,Positive
+Flipkart Customer,Great product,0.8,Positive
+Muthukumar Periyasamy,Brilliant,0.9,Positive
+Saumya Saxena,Must buy!,0.0,Neutral
+Brij Mohan,Awesome,1.0,Positive
+Suraj Khandelwal,Best in the market!,1.0,Positive
+Lakshmi Pulikonda,Awesome,1.0,Positive
+SHAH NAWAZ,Super!,0.41666666666666663,Positive
+Kumar Gourav,Fabulous!,0.5,Positive
+Harshvardhan Singh,Classy product,0.1,Positive
+Flipkart Customer,Wonderful,1.0,Positive
+Avinash Mohanty,Best in the market!,1.0,Positive
+Er Chandra Shekhar Yaduwanshi,Awesome,1.0,Positive
+Pankaj Sapra,Worth the money,0.3,Positive
+Abhishek Somani,Worth every penny,0.3,Positive
+Flipkart Customer,Excellent,1.0,Positive
+Manoranjan  Panda,Highly recommended,0.16,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Gaurav Big-g,Simply awesome,1.0,Positive
+Deval Raut,Worth every penny,0.3,Positive
+Abhishek Roy,Wonderful,1.0,Positive
+Dhananjay Pawar,Must buy!,0.0,Neutral
+Flipkart Customer,Highly recommended,0.16,Positive
+Jigin J S,Best in the market!,1.0,Positive
+Teja gummidi Teja gummidi,Highly recommended,0.16,Positive
+Rajinder  Singh Pathania,Classy product,0.1,Positive
+DilipKumar DJ,Amazing performance,0.6000000000000001,Positive
+Manoj Verma,Highly recommended,0.16,Positive
+Vivian Victor,Best in the market!,1.0,Positive
+Nishant Goel,Awesome,1.0,Positive
+Ashwin palanisamy,Brilliant,0.9,Positive
+krishna,Highly recommended,0.16,Positive
+Krishna Moorthy,Fabulous!,0.5,Positive
+Manavendra Kumar,Brilliant,0.9,Positive
+Naveen G,Perfect product!,1.0,Positive
+Rekha Riju,Highly recommended,0.16,Positive
+Piyush Kumar,Awesome,1.0,Positive
+Siddharth Sethi,Perfect product!,1.0,Positive
+Kiran Kumar Swain,Pretty good,0.475,Positive
+Shreyank Prabhu,Just wow!,0.125,Positive
+Soumya Roy,Terrific,0.0,Neutral
+Yodhraaj Bhukta,Simply awesome,1.0,Positive
+Yash Handa,Classy product,0.1,Positive
+Karthik  Reddy,Terrific,0.0,Neutral
+Kaushik Sarkar,Highly recommended,0.16,Positive
+raj narayan,Highly recommended,0.16,Positive
+Asif Iqbal Basha Bangle,Worth every penny,0.3,Positive
+Naveen K,Good quality product,0.7,Positive
+Abhishek Gill,Terrific purchase,0.0,Neutral
+Angelin Priyadharshini,Simply awesome,1.0,Positive
+Kiev Fernandes,Must buy!,0.0,Neutral
+sourabh rajawat,Brilliant,0.9,Positive
+Nishant Yadav,Must buy!,0.0,Neutral
+kalpesh gohel,Great product,0.8,Positive
+Nishant,Excellent,1.0,Positive
+soofia rasheed,Just wow!,0.125,Positive
+Flipkart Customer,Classy product,0.1,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Jeet Bandhu Lahiri,Just wow!,0.125,Positive
+Shehan,Awesome,1.0,Positive
+Saravanakumar Gurusamy,Excellent,1.0,Positive
+Flipkart Customer,Perfect product!,1.0,Positive
+Ajay  Kumar,Great product,0.8,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+Suraj Arya,Classy product,0.1,Positive
+Heera Kumar,Terrific purchase,0.0,Neutral
+Yash Shubham,Very Good,0.9099999999999999,Positive
+Vardan Rajora,Just wow!,0.125,Positive
+Bala Srk,Perfect product!,1.0,Positive
+Kannan,Highly recommended,0.16,Positive
+Parv Sharma,Classy product,0.1,Positive
+Dinesh Kumar,Fabulous!,0.5,Positive
+Arun Pillai,Must buy!,0.0,Neutral
+jatin tyagi,Pretty good,0.475,Positive
+Akshay Nagaraj,Classy product,0.1,Positive
+Mamidi Narsireddy,Nice product,0.6,Positive
+Tejas Lad,Just wow!,0.125,Positive
+Anuj Swai,Excellent,1.0,Positive
+Ajit Baskey,Nice product,0.6,Positive
+U.S. A.,Wonderful,1.0,Positive
+Nikkil Joseph Jose,Great product,0.8,Positive
+SWARUP  GANGULY,Classy product,0.1,Positive
+Yuvraj Mathur,Highly recommended,0.16,Positive
+MANISH KUMAR,Good quality product,0.7,Positive
+Flipkart Customer,Excellent,1.0,Positive
+sanket mehta,Highly recommended,0.16,Positive
+VARUN PANWAR,Best in the market!,1.0,Positive
+Kaushik Suhagiya,Classy product,0.1,Positive
+UDAY Y,Must buy!,0.0,Neutral
+ravi pandey,Wonderful,1.0,Positive
+Rajabhaiyya  Rahangadale,Super!,0.41666666666666663,Positive
+ruthik gundeti,Just wow!,0.125,Positive
+Harman Preet,Best in the market!,1.0,Positive
+Flipkart Customer,Simply awesome,1.0,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+LAD  DU,Worth every penny,0.3,Positive
+Akash Jadhav,Excellent,1.0,Positive
+MILAN KUMAR SUR,Excellent,1.0,Positive
+Ujjwal Kumar,Wonderful,1.0,Positive
+rajesh Padhy,Highly recommended,0.16,Positive
+Flipkart Customer,Terrific purchase,0.0,Neutral
+Irfan Amin Malik,Excellent,1.0,Positive
+Jignesh  Goriya,Mind-blowing purchase,0.0,Neutral
+Arnav Vibhuti,Mind-blowing purchase,0.0,Neutral
+Flipkart Customer,Wonderful,1.0,Positive
+Flipkart Customer,Nice product,0.6,Positive
+Bhaskar Karmakar,Wonderful,1.0,Positive
+Shivansh  Jaitly,Terrific,0.0,Neutral
+Apoorve Agarwal,Must buy!,0.0,Neutral
+Ram Prakash,Terrific purchase,0.0,Neutral
+GOPAKUMAR K V,Must buy!,0.0,Neutral
+shubham agrahari,Terrific purchase,0.0,Neutral
+Narendra  Ramteke,Terrific,0.0,Neutral
+Rakesh Sharma,Mind-blowing purchase,0.0,Neutral
+kannan arunachalam,Great product,0.8,Positive
+pranjal sharma,Simply awesome,1.0,Positive
+Prateek Surana,Simply awesome,1.0,Positive
+Pravin Prajapati,"Worth every penny, with next day delivery as promised",0.15,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Amit kumar Gupta,Nice product,0.6,Positive
+Shibil PK,Awesome,1.0,Positive
+Nitin Grover,Super!,0.41666666666666663,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Sachin Aggarwal,Worth the money,0.3,Positive
+smites bera,Simply awesome,1.0,Positive

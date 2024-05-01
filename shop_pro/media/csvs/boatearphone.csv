@@ -1,0 +1,209 @@
+Author,Review,Sentiment Score,Status
+Flipkart Customer,Does the job,0.0,Neutral
+Muhammed Nizar,Fair,0.7,Positive
+Flipkart Customer,Worst experience ever!,-1.0,Negative
+SUMESH SP,Excellent,1.0,Positive
+ABHIJITH  G KRISHNAN,Does the job,0.0,Neutral
+Flipkart Customer,Super!,0.41666666666666663,Positive
+Ankit Bisht,Pretty good,0.475,Positive
+Flipkart Customer,Worth every penny,0.3,Positive
+Ashfaq  K,Wonderful,1.0,Positive
+Flipkart Customer,Horrible,-1.0,Negative
+Abhishek Ram  Mahagaonkar,Best in the market!,1.0,Positive
+SANJEET SINGH,Very poor,-0.52,Negative
+Pranav Pr,Delightful,1.0,Positive
+Davinder Kumar,Highly recommended,0.16,Positive
+Flipkart Customer,Just wow!,0.125,Positive
+Adarsh Av,Really Nice,0.6,Positive
+Vaibhav singh,Wonderful,1.0,Positive
+Chirag Kapoor,Excellent,1.0,Positive
+Naveen Kumar,Worthless,-0.8,Negative
+Prabavathi R,Unsatisfactory,0.0,Neutral
+Harman Singh,Terrible product,-1.0,Negative
+Sinan Zeno,Excellent,1.0,Positive
+Flipkart Customer,Unsatisfactory,0.0,Neutral
+Hrithik K,Waste of money,-0.2,Negative
+Riyaz Shaik,Value-for-money,0.0,Neutral
+Sudeep Krishna,Good choice,0.7,Positive
+Flipkart Customer,Worthless,-0.8,Negative
+Flipkart Customer,Brilliant,0.9,Positive
+Vishnu 90s,Not good,-0.35,Negative
+Yash Mishra,Absolute rubbish!,0.25,Positive
+Rohit Mottan,Did not meet expectations,0.0,Neutral
+Krishhna Chand,Absolute rubbish!,0.25,Positive
+ASHOK RAJA,Horrible,-1.0,Negative
+BINIL JACOB,Utterly Disappointed,-0.75,Negative
+Haifa Saifudeen,Wonderful,1.0,Positive
+Amit Gore,Wonderful,1.0,Positive
+Priya  Verma,Super!,0.41666666666666663,Positive
+ABHIJITH SHYJU,Excellent,1.0,Positive
+Flipkart Customer,Did not meet expectations,0.0,Neutral
+Flipkart Customer,Could be way better,0.5,Positive
+Prasanth King,Mind-blowing purchase,0.0,Neutral
+vinay roy,Decent product,0.16666666666666666,Positive
+Aditya Prakash,Waste of money!,-0.25,Negative
+Flipkart Customer,Fair,0.7,Positive
+Jack  Chanda,Perfect product!,1.0,Positive
+sreehari  R,Did not meet expectations,0.0,Neutral
+ammar shaikh,Terrific purchase,0.0,Neutral
+Raj  Varma,Super!,0.41666666666666663,Positive
+Fahiz Faherm,Perfect product!,1.0,Positive
+Jibin Customer,Nice product,0.6,Positive
+Flipkart Customer,Classy product,0.1,Positive
+Pritha Barathi,Unsatisfactory,0.0,Neutral
+Ashok Kumar,Terrific,0.0,Neutral
+Flipkart Customer,Worth every penny,0.3,Positive
+Flipkart Customer,Don't waste your money,-0.2,Negative
+Vishal  dewadhari,Awesome,1.0,Positive
+Kaushalendra Choubey,Just okay,0.5,Positive
+chhotu  singh,Excellent,1.0,Positive
+Amal  Joseph,Worth the money,0.3,Positive
+Arun Singh  Dhami,Horrible,-1.0,Negative
+Flipkart Customer,Excellent,1.0,Positive
+Abhin  Raj v p,Worthless,-0.8,Negative
+Flipkart Customer,Good,0.7,Positive
+Manoj Verma,Just wow!,0.125,Positive
+Jay G Patel,Excellent,1.0,Positive
+Nithi  Thirupathi,Terrific,0.0,Neutral
+MD WARISH BASEER,Just wow!,0.125,Positive
+Gopi k,Bad quality,-0.6999999999999998,Negative
+Kasim Sheikh,Good,0.7,Positive
+Flipkart Customer,Waste of money!,-0.25,Negative
+Vishal  dewadhari,Awesome,1.0,Positive
+Kaushalendra Choubey,Just okay,0.5,Positive
+chhotu  singh,Excellent,1.0,Positive
+Amal  Joseph,Worth the money,0.3,Positive
+Arun Singh  Dhami,Horrible,-1.0,Negative
+Flipkart Customer,Excellent,1.0,Positive
+Abhin  Raj v p,Worthless,-0.8,Negative
+Flipkart Customer,Good,0.7,Positive
+Manoj Verma,Just wow!,0.125,Positive
+Jay G Patel,Excellent,1.0,Positive
+Nithi  Thirupathi,Terrific,0.0,Neutral
+MD WARISH BASEER,Just wow!,0.125,Positive
+Gopi k,Bad quality,-0.6999999999999998,Negative
+Kasim Sheikh,Good,0.7,Positive
+Flipkart Customer,Waste of money!,-0.25,Negative
+Flipkart Customer,Good quality product,0.7,Positive
+Umesh Sondulkar,Very Good,0.9099999999999999,Positive
+Arnav Singh,Slightly disappointed,-0.75,Negative
+Danish  Khan,Good quality product,0.7,Positive
+Mrinal Madhukar,Fabulous!,0.5,Positive
+Flipkart Customer,Very Good,0.9099999999999999,Positive
+Ashfaq  Roshan,Worst experience ever!,-1.0,Negative
+Ankit Raj,Worth the money,0.3,Positive
+kumar roshan,Brilliant,0.9,Positive
+Flipkart Customer,Fabulous!,0.5,Positive
+Arjun Singh,Great product,0.8,Positive
+Krishna Behera,Did not meet expectations,0.0,Neutral
+SUNIL YADAV,Wonderful,1.0,Positive
+sridhar vastrala,Terrible product,-1.0,Negative
+SUNIL  SAHU,Awesome,1.0,Positive
+Sharath Franklin,Excellent,1.0,Positive
+Vishal  Rehan,Good choice,0.7,Positive
+Sudhish C,Useless product,-0.5,Negative
+Senthil Vadivu,Absolute rubbish!,0.25,Positive
+Vinay  Maurya,Moderate,0.0,Neutral
+Vishnu,Awesome,1.0,Positive
+Bharath raj Raj,Must buy!,0.0,Neutral
+Nikhil Chhetri,Worst experience ever!,-1.0,Negative
+Anooj Santhosh,Useless product,-0.5,Negative
+Ashutosh gautam,Must buy!,0.0,Neutral
+Ashok Kumar,Good choice,0.7,Positive
+AKSHAY SREEDHARAN K M,Fair,0.7,Positive
+Flipkart Customer,Decent product,0.16666666666666666,Positive
+Sajjan singh chohan,Perfect product!,1.0,Positive
+Harshit Attri,Terrible product,-1.0,Negative
+Santosh kr Mishra,Not recommended at all,0.0,Neutral
+Flipkart Customer,Brilliant,0.9,Positive
+Ojasv Singh,Does the job,0.0,Neutral
+Ramesh chandra Guru,Fabulous!,0.5,Positive
+Avishek Pandey,Worst experience ever!,-1.0,Negative
+MANZAR ALAM,Nice,0.6,Positive
+Flipkart Customer,Terrific,0.0,Neutral
+Flipkart Customer,Super!,0.41666666666666663,Positive
+praveen nooka,Useless product,-0.5,Negative
+Swarup Das,Did not meet expectations,0.0,Neutral
+Madhur Gupta,Not recommended at all,0.0,Neutral
+Rahul Kumar,Did not meet expectations,0.0,Neutral
+Shivam Chauhan,Mind-blowing purchase,0.0,Neutral
+Shivakumar  K,Classy product,0.1,Positive
+Sabu George,Great product,0.8,Positive
+ankit lohar,Terrible product,-1.0,Negative
+Suraj Kumar,Value-for-money,0.0,Neutral
+Neil Surti,Hated it!,-1.0,Negative
+Aryan Lahon,DO NOT MAKE THIS MISTAKE (READ BEFORE BUYING),0.0,Neutral
+Aakash  Gupta,Worthless,-0.8,Negative
+Nawneet Singh,Classy product,0.1,Positive
+Ashutosh Verma,Super!,0.41666666666666663,Positive
+Junaid Ansari,Wonderful,1.0,Positive
+Sarath  Sathyan,Does the job,0.0,Neutral
+Manu Manoj,Nice product,0.6,Positive
+Asrar  Alam,Awesome,1.0,Positive
+sarath kb,Unsatisfactory,0.0,Neutral
+Jude Ansel Varghese,Terrible product,-1.0,Negative
+Deepak  Kumar,Super!,0.41666666666666663,Positive
+Ben Ramakrishnan,Great product,0.8,Positive
+Goyani Aryan,Value-for-money,0.0,Neutral
+Dev  Kumar,Super!,0.41666666666666663,Positive
+Vivek Rajan,Does the job,0.0,Neutral
+Ajay Panchal,Highly recommended,0.16,Positive
+Saurabh Pandey,Perfect product!,1.0,Positive
+Amal  A S,Worth every penny,0.3,Positive
+Flipkart Customer,Did not meet expectations,0.0,Neutral
+Flipkart Customer,Very poor,-0.52,Negative
+Divyansh Sankhyan,Terrific purchase,0.0,Neutral
+Chaitanya Nair,Worthless,-0.8,Negative
+Flipkart Customer,Could be way better,0.5,Positive
+Sonu Kumar,Terrific purchase,0.0,Neutral
+Flipkart Customer,Worst experience ever!,-1.0,Negative
+Mohammed Athiq,Nice product,0.6,Positive
+Sooraj Srj,Really Nice,0.6,Positive
+Amal  A S,Worth every penny,0.3,Positive
+Flipkart Customer,Very poor,-0.52,Negative
+Divyansh Sankhyan,Terrific purchase,0.0,Neutral
+Chaitanya Nair,Worthless,-0.8,Negative
+Sonu Kumar,Terrific purchase,0.0,Neutral
+Flipkart Customer,Worst experience ever!,-1.0,Negative
+Mohammed Athiq,Nice product,0.6,Positive
+Sooraj Srj,Really Nice,0.6,Positive
+Harish  Jakkannavar,Not good,-0.35,Negative
+Flipkart Customer,Good,0.7,Positive
+Karthikeyan,Unsatisfactory,0.0,Neutral
+Flipkart Customer,Great product,0.8,Positive
+Flipkart Customer,Worst experience ever!,-1.0,Negative
+Animesh Rana,Very Good,0.9099999999999999,Positive
+Sazid Basha,Wonderful,1.0,Positive
+Krish Singh,Slightly disappointed,-0.75,Negative
+Flipkart Customer,Super!,0.41666666666666663,Positive
+SAYAK MANDAL,Not recommended at all,0.0,Neutral
+Flipkart Customer,Highly recommended,0.16,Positive
+Flipkart Customer,Must buy!,0.0,Neutral
+Gangadhor Das,Really Nice,0.6,Positive
+Flipkart Customer,Super!,0.41666666666666663,Positive
+Mithilesh  Kale,Fair,0.7,Positive
+Ashikar  Rahman,Best in the market!,1.0,Positive
+SANJEET SINGH,Very poor,-0.52,Negative
+Johnson  Matthew,Perfect product!,1.0,Positive
+Umpo Owen,Mind-blowing purchase,0.0,Neutral
+Babusona Adhikari,Wonderful,1.0,Positive
+Pulkit Parakh,Fair,0.7,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+Babusona Adhikari,Wonderful,1.0,Positive
+Pulkit Parakh,Fair,0.7,Positive
+Agnesh  Babu,Really Nice,0.6,Positive
+abhijith AB,Must buy!,0.0,Neutral
+Flipkart Customer,Could be way better,0.5,Positive
+sujin nlr,Perfect product!,1.0,Positive
+Akhil  kukku,Awesome,1.0,Positive
+Flipkart Customer,Brilliant,0.9,Positive
+Douglas  Davis,Must buy!,0.0,Neutral
+Nimal Sunny,Simply awesome,1.0,Positive
+DHARMADURAI Durai,Awesome,1.0,Positive
+MALLIKARJUNA REDDY CHALLA,Pretty good,0.475,Positive
+Nani Balaga,Very Good,0.9099999999999999,Positive
+Flipkart Customer,Must buy!,0.0,Neutral
+arjun v,Wonderful,1.0,Positive
+Flipkart Customer,Nice product,0.6,Positive
+Jony Alexander,Fabulous!,0.5,Positive
+Jareesh  Vm,Great product,0.8,Positive

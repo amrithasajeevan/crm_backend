@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p=ba7qiddo6syczw1_5&w7z3v%1vu-a3wa+8^ec)rrdg84k9t%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'drf_spectacular',
     "corsheaders",
+    'django_celery_results'
 
 ]
 
@@ -84,13 +85,14 @@ WSGI_APPLICATION = 'shop_pro.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "crmdb",
-        "USER": "crm",
-        "PASSWORD": "crmadmin@123",
+        "NAME": "dbname",
+        "USER": "username",
+        "PASSWORD": "password",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
 }
+
 
 
 # Password validation
@@ -151,3 +153,18 @@ CORS_ALLOWED_ORIGINS = [
 import os
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP host
+EMAIL_PORT = 587  # Replace with your SMTP port
+EMAIL_USE_TLS = True  # Use TLS for secure connection
+EMAIL_HOST_USER = ''  # Replace with your email
+EMAIL_HOST_PASSWORD = ''  # Replace with your email password
+
+CELERY_BROKER_URL='redis://127.0.0.1:6379'
+CELERY_ACCEPT_CONTENT=['application/json']
+CELERY_RESULT_SERIALIZER='json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE='Asia/Kolkata'
+CELERY_RESULT_BACKEND='django-db'
